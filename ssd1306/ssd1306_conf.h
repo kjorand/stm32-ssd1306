@@ -24,6 +24,12 @@
 #define SSD1306_I2C_PORT        hi2c1
 #define SSD1306_I2C_ADDR        (0x3C << 1)
 
+// SSD1306 OLED height in pixels
+#define SSD1306_HEIGHT          64
+
+// SSD1306 width in pixels
+#define SSD1306_WIDTH           128
+
 // Mirror the screen if needed
 // #define SSD1306_MIRROR_VERT
 // #define SSD1306_MIRROR_HORIZ
